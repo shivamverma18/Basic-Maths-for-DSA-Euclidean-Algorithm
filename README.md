@@ -103,3 +103,36 @@ Output:
 7789
 Total Digit: 4
 ```
+## 🔁 2. Reverse a Number
+
+### ✅ Problem Statement:
+Reverse the digits of a given positive integer.
+
+### 📄 Code:
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+int rev(int n) {
+    int revNum = 0;
+    while (n > 0) {
+        int lastDigit = n % 10;
+        revNum = (revNum * 10) + lastDigit;
+        n /= 10;
+    }
+    return revNum;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    cout << "Reverse Number: " << rev(n) << endl;
+    return 0;
+}
+
+```
+```bash
+Output: 
+1234
+Reverse Number: 4321
+```
