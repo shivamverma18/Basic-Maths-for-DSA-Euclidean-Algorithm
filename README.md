@@ -1,7 +1,7 @@
 # Basic-Maths-for-DSA-Euclidean-Algorithm
 
 ```bash
-``
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -20,4 +20,8 @@ int main() {
     cout << "Total Digit: " <<count(n) << endl; 
     return 0;
 }
+```
+```bash
+7789
+Total Digit: 4
 ```
