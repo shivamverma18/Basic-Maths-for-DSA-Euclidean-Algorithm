@@ -90,8 +90,6 @@ int count(int n) {
     return cnt;
 }
 
-
-
 int main() {
     int n;
     cin >> n;
@@ -101,6 +99,7 @@ int main() {
 
 ```
 ```bash
+Output: 
 7789
 Total Digit: 4
 ```
