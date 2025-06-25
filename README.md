@@ -74,10 +74,7 @@ This repository contains fundamental C++ programs used frequently in Data Struct
 ## 🔢 1. Count Digits in a Number
 
 ### ✅ Problem Statement:
-Count the number of digits in a given positive integer.
-
-### 💡 Approach:
-Keep dividing the number by 10 and increment a counter until the number becomes 0.
+Count the number of digits in a given number.
 
 ### 📄 Code:
 ```cpp
@@ -93,9 +90,17 @@ int count(int n) {
     return cnt;
 }
 
+
+
 int main() {
     int n;
     cin >> n;
     cout << "Total Digit: " << count(n) << endl;
     return 0;
 }
+
+```
+```bash
+7789
+Total Digit: 4
+```
